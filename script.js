@@ -61,8 +61,8 @@ $(document).ready(function(){
 	});
 
 	setInterval(()=>{
-		$left += ($mouseX - $left)/ 12;
-		$top += ($mouseY - $top)/ 12;
+		$left += ($mouseX - $left)/ 5;
+		$top += ($mouseY - $top)/ 5;
 		$("#cursor").css({ left: $left+"px", top: $top+"px" });
 	},0.5);
 
